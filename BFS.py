@@ -1,5 +1,9 @@
 from collections import defaultdict, deque
 from Challenge import *
+
+# Implementación del algoritmo BFS para llegar a la solución óptima.
+# Decidí utilizar este sobre dijkstra o A*, ya que se trataba de un "grafo" no pesado.
+# Y descarte el uso de DFS, ya que no tiene por qué llegar a la solución óptima.
 def bfs(lab, start):
     end= [len(lab)-1,len(lab[len(lab)-1])-1]
     visited = []

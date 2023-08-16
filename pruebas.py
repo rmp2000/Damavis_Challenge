@@ -1,5 +1,5 @@
 from BFS import bfs
-
+# Archivo creado para realizar los distintos test que se proporcionan en el pdf
 start=[[0,0],[0,1],[0,2]]
 print("test 1:")
 lab =[[".",".",".",".",".",".",".",".","."],

@@ -1,3 +1,8 @@
+#En este archivo se encuentra todo el movimiento del objeto de dimensiones 1X3.
+#Asi como las diferentes comprobaciones necesarias para su funcionamiento.
+#Las funciones con nombre move_{posición} describen el cambio de posición del objeto.
+#Las funciones con nombre comprobar_{direcciones} comprueban si el objeto puede desplazarse a esa posición.
+
 def move_right(rod_pos,lab):
     if rod_pos[2][1]+1<len(lab[1]): 
         match comprobar_lados(rod_pos,lab,"r"):
